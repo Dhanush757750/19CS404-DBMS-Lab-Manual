@@ -26,7 +26,7 @@ A popular restaurant wants to manage *reservations, orders, and billing*.
 <img width="4512" height="2190" alt="erdplus" src="https://github.com/user-attachments/assets/d5af98b1-09fe-4d32-b84a-dca4a6968459" />
 
 ###  Entities and Attributes
-| Entity    | Attributes (PK, FK) | Notes |
+| Entity    | Attributes (PK, FK) | Note |
 |-----------|----------------------|-------|
 | Customer  | CustomerID (PK), Name, Contact | Makes reservations |
 | Reservation | ReservationID (PK), Date, Time, Guests, CustomerID (FK), TableID (FK) | Booking info |
